@@ -94,3 +94,56 @@ nav{
 .menu{
 margin-left: 0px;
 }
+
+aside{
+    display: inline-flex;
+}
+.image{
+    height: 210px;
+    width: 210px;
+}
+.story{
+    color: black;
+    background-color: white;
+    height: 180px;
+    width: 860px;
+    padding: 2px;
+    border: solid 0px black;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.title{
+    font-size: larger;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+div{
+    background-color: white;
+    height: 180px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    
+}
+.des{
+    font-size: smaller;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:10px ;
+    margin-right: 40px;
+}
+.des1{
+    border-bottom: solid black 3px;
+    font-size: smaller;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:10px 
+}
